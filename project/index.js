@@ -6,7 +6,7 @@ let app = express();
 // create static website
 app.use(express.static("www"));
 
-// establish 接受 post
+// establish 接受 post 方法參數的能力
 app.use(parser.urlencoded({
     extended: true
 }));
